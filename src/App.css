@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-syne: "Syne", sans-serif;
+  --color-myBlue:#0147FF;
+  --color-myDarkblue:#0D214F;
+  --color-myBlack:#111;
+  --color-myBackground : #1a1a1a;
+
+
+
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+/* all slides */
+.slide-item {
+  @apply -rotate-y-2 -translate-x-2 opacity-50 bg-myBackground text-white scale-95 transition duration-700;
+}
+
+/* left slide */
+.swiper-slide-active .slide-item {
+  @apply rotate-y-2 translate-x-2 transition duration-700 ;
+  }
+
+/* right slide */
+.swiper-slide-prev .slide-item {
+  @apply -rotate-y-2 -translate-x-2 transition duration-700;
+}
+
+/* center slide */
+.swiper-slide-next .slide-item {
+  @apply rotate-y-0 translate-x-0 transition duration-700 opacity-100 bg-gray-300 text-black shadow-xl scale-100 hover:bg-myBlue hover:text-white hover:duration-200;
+}
+
