@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import GearIcon from '../assets/Gear.svg?react'
+import GearIcon from '/src/assets/Gear.svg?react'
 
 function Hero() {
   return (

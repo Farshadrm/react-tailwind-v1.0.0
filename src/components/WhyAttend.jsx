@@ -1,8 +1,8 @@
 import React from 'react'
-import Text01 from "../assets/text01.svg?react"
-import Text02 from "../assets/text02.svg?react"
-import Text03 from "../assets/text03.svg?react"
-import Text04 from "../assets/text04.svg?react"
+import Text01 from "/src/assets/text01.svg?react"
+import Text02 from "/src/assets/text02.svg?react"
+import Text03 from "/src/assets/text03.svg?react"
+import Text04 from "/src/assets/text04.svg?react"
 
 
 

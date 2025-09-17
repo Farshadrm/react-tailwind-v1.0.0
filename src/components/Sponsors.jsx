@@ -1,9 +1,9 @@
 import React from 'react'
-import AmazonLogo from "../assets/AmazonLogo.svg?react"
-import DribbleLogo from "../assets/DribbleLogo.svg?react"
-import HubspotLogo from "../assets/HubspotLogo.svg?react"
-import NotionLogo from "../assets/NotionLogo.svg?react"
-import GumroadLogo from "../assets/GumroadLogo.svg?react"
+import AmazonLogo from "/src/assets/AmazonLogo.svg?react"
+import DribbleLogo from "/src/assets/DribbleLogo.svg?react"
+import HubspotLogo from "/src/assets/HubspotLogo.svg?react"
+import NotionLogo from "/src/assets/NotionLogo.svg?react"
+import GumroadLogo from "/src/assets/GumroadLogo.svg?react"
 
 
 function Sponsors() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Countdown from 'react-countdown';
-import Vector from"../assets/Vector.svg?react"
+import Vector from"/src/assets/Vector.svg?react"
 
 const renderer = ({ days, hours, minutes, seconds, completed }) => {
   if (completed) {
