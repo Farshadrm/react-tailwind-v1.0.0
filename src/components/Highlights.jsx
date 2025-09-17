@@ -1,10 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import avatar1 from "../assets/1.jpg"
-import avatar2 from "../assets/2.jpg"
-import avatar3 from "../assets/3.jpg"
-import avatar4 from "../assets/4.jpg"
+import avatar1 from "../assets/i1.jpg"
+import avatar2 from "../assets/i2.jpg"
+import avatar3 from "../assets/i3.jpg"
+import avatar4 from "../assets/i4.jpg"
 
 function Highlights() {
   return (
