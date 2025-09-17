@@ -1,8 +1,8 @@
 import React from 'react'
-import Facebook from "/src/assets/Facebook.svg?react"
-import Linkedin from "/src/assets/Linkedin.svg?react"
-import Insta from "/src/assets/Insta.svg?react"
-import Youtube from "/src/assets/Youtube.svg?react"
+import Facebook from "../assets/Facebook.svg?react"
+import Linkedin from "../assets/Linkedin.svg?react"
+import Insta from "../assets/Insta.svg?react"
+import Youtube from "../assets/Youtube.svg?react"
 import GoogleMapReact from 'google-map-react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';

@@ -1,8 +1,8 @@
 import React from 'react'
-import imageOne from "/src/assets/ImageOne.png"
-import imageTwo from "/src/assets/ImageTwo.png"
-import imageThree from "/src/assets/ImageThree.png"
-import imageFour from "/src/assets/ImageFour.png"
+import imageOne from "../assets/ImageOne.png"
+import imageTwo from "../assets/ImageTwo.png"
+import imageThree from "../assets/ImageThree.png"
+import imageFour from "../assets/ImageFour.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
